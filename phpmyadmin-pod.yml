@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: phpmyadmin-pod 
+  labels:
+    app: phpmyadmin-pod
+spec:
+  containers:
+    - name: phpmyadmin
+      image: phpmyadmin:latest
+      envFrom:
+        - configMapRef:
+            name: phpmyadmin-config
+        - secretRef:
+            name: phpmyadmin-secret
+      ports:
+      - containerPort: 80
