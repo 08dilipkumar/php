@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: myphp
-      image: 07dilip/myphp2:v2
+      image: 07dilip/php4:4
       ports:
       - containerPort: 80 

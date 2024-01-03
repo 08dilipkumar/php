@@ -15,3 +15,6 @@ spec:
             name: mysql-secret
       ports:
       - containerPort: 3306 
+
+
+

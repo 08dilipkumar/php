@@ -65,10 +65,10 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $servername = "10.43.58.82";
-    $username = "dbuser";
-    $password = "dbpassword";
-    $dbname = "PHP";
+    $servername = "10.43.41.238";
+    $username = "root";
+    $password = "root-password";
+    $dbname = "sampledb";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

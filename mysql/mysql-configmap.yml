@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: mysql-config 
 data:
-  MYSQL_DATABASE: sampledb
+  MYSQL_DATABASE: sampledb 
+  
